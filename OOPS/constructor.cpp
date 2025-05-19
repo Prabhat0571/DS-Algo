@@ -29,7 +29,7 @@ class Space{
 int main(){
     Space Milkyway;
     Space bye=Milkyway; // method 1      
-    Space hello(Milkyway); // method 2
+    Space hello(Milkyway); // method 2 //hello
 //   Space andromeda=Milkyway;
   
      
