@@ -24,7 +24,7 @@ public:
 
     void pop() {
         if (top == -1) {
-            cout << "Underflow: Stack is empty" << endl;
+            cout << "Underflow: Stack is empty" << endl;//yani ki isme koi element ni h
         } else {
             top--;
         }
