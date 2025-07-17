@@ -8,12 +8,11 @@ int firstOcc(int arr[], int target, int n) {
   int end= n-1;
   int mid= (start+end)/2;
   int Answer =-1;
-  int Ans=-1;
   
   while(start<=end){
     if(arr[mid]==target){
-      Answer=mid;
-      end=mid-1;
+      Answer=mid; //answer ko store karao 
+      end=mid-1; //left m deko
       
     }
     else if(target>arr[mid]){
