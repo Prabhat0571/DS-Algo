@@ -37,7 +37,6 @@ int main(){
     reverseArr(ch);
       cout <<"reverse : "<< ch;
     //our cin only reads inputs until spaces, enter, tabs etc so we use cin.getline()
-
     //cin.getline(ch, 100);
 
 
